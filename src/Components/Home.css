@@ -155,9 +155,9 @@ h1,h3{
 }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 510px) {
 .typewriter{
-    margin-left: -30%;
+    margin-left: -80%;
   }
   .page-enter {
     margin-top: -45%;
