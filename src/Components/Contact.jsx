@@ -42,10 +42,10 @@ const Contact = () => {
           
           <h2>Let's Talk</h2>
           <p style={{color:'black',fontWeight:'bold'}}>I'm currently available to take on new project,so feel free to send me a message about anything that want me to work on.You can contact anytime.</p>
-          <div style={{display:'flex',alignItems:'center',gap:'20px',flexWrap:'nowrap',overflowX:'auto'}}><FaEnvelope size={30} /><p style={{color:'black',fontWeight:'bold'}}>www.tamilprabaharancivil@gmail.com</p></div>
-          <div style={{display:'flex',alignItems:'center',gap:'20px',flexWrap:'nowrap',overflowX:'auto'}}><FaPhone size={30}  /><p style={{color:'black',fontWeight:'bold'}}>+91 9597944372</p></div>
-          <div style={{display:'flex',alignItems:'center',gap:'20px',flexWrap:'nowrap',overflowX:'auto'}}><GoLocation size={30} /><p style={{color:'black',fontWeight:'bold'}}>6,thiruvalluvar nagar,velayuthampalayam,karur</p></div>
-          <div style={{display:'flex',alignItems:'center',gap:'20px'}} className='icon'>
+          <div className='allin' style={{display:'flex',alignItems:'center',gap:'20px',flexWrap:'nowrap',overflowX:'auto'}}><FaEnvelope size={30} /><p style={{color:'black',fontWeight:'bold'}}>www.tamilprabaharancivil@gmail.com</p></div>
+          <div className='allin' style={{display:'flex',alignItems:'center',gap:'20px',flexWrap:'nowrap',overflowX:'auto'}}><FaPhone size={30}  /><p style={{color:'black',fontWeight:'bold'}}>+91 9597944372</p></div>
+          <div className='allin' style={{display:'flex',alignItems:'center',gap:'20px',flexWrap:'nowrap',overflowX:'auto'}}><GoLocation size={30} /><p style={{color:'black',fontWeight:'bold'}}>6,thiruvalluvar nagar,velayuthampalayam,karur</p></div>
+          <div  style={{display:'flex',alignItems:'center',gap:'20px'}} className='icon'>
           <a href="https://www.linkedin.com/in/tamilprabaharancode/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={30} style={{color:'black'}}/></a>
           <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">

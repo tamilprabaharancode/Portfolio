@@ -110,9 +110,10 @@
   .ab{
     margin-top: 180px;
   }
+
 }
 
-@media (max-width: 410px) {
+/* @media (max-width: 410px) {
   .cad{
   overflow-x: auto;
   display: flex;
@@ -126,5 +127,7 @@
   flex: 0 0 auto;
 }
 
-}
+} */
+
+
 

@@ -33,3 +33,13 @@
   border-radius: 5px;
 }
 
+@media (min-width: 510px) {
+  .allin {
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;      
+    gap: 30px;
+    margin: 0 10%;         
+    overflow: visible;    
+  }}
+
