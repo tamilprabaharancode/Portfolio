@@ -28,9 +28,9 @@ const Aboutme = () => {
         </p>
       </div>
 
-      <div style={{margin:'0 20%'}}>
-               <div  style={{margin:'0 20%',display:'flex',justifyContent:'center',alignItems:'center',gap:'20px'}}>
-              <div className="hover-card">
+      <div  style={{margin:'0 20%'}} className='over1'>
+          <div className='.cad' style={{margin:'0 20%',display:'flex',flexWrap:'nowrap',overflowX:'auto',justifyContent:'center',gap:'20px'}}>
+            <div className="hover-card">
               <h3 style={{display:'flex',alignItems:'center',justifyContent:'center'}}><BiCode size={30} />Web Development</h3>
               <p>Creating responsive website and web applications with modern frame work.</p>
             </div>
@@ -42,7 +42,7 @@ const Aboutme = () => {
               <h3 style={{display:'flex',alignItems:'center',justifyContent:'center'}}><FiBriefcase size={30} />Project Management</h3>
               <p>Leading projects from conception to completion with agile methodologies.</p>
             </div>
-        </div>
+          </div>
         </div>
       </div>
       </center>

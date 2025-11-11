@@ -38,7 +38,7 @@ const Contact = () => {
 
       <h1  className="typing" style={{display:'flex',alignItems:'center',justifyContent:'center',margin:'100px 0',textAlign:'center'}}>Get in touch</h1>
       <div style={{margin:'50px 20px',display:'flex',gap:'20px'}}>
-        <div style={{width:'50%'}}>
+        <div style={{width:'50%'}} className='min'>
           
           <h2>Let's Talk</h2>
           <p style={{color:'black',fontWeight:'bold'}}>I'm currently available to take on new project,so feel free to send me a message about anything that want me to work on.You can contact anytime.</p>

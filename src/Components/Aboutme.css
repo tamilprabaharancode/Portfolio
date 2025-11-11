@@ -112,3 +112,19 @@
   }
 }
 
+@media (max-width: 410px) {
+  .cad{
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 10px 0;
+  margin: 0 50%;
+  }
+  .hover-card {
+  min-width: 250px;
+  flex: 0 0 auto;
+}
+
+}
+

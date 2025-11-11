@@ -154,3 +154,28 @@ h1,h3{
   border: 3px solid white;
 }
 }
+
+@media (max-width: 410px) {
+.typewriter{
+    margin-left: -30%;
+  }
+  .page-enter {
+    margin-top: -45%;
+    margin-left: 25%;
+  }
+  .background-image1 {
+  margin-top: 100%;
+  margin-left: -200%;
+  width: 250px;
+  height: 250px;
+  clip-path: polygon(
+    50% 0%, 
+    95% 38%, 
+    77% 95%, 
+    23% 95%, 
+    5% 38%
+  );
+  object-fit: cover;
+  border: 3px solid white;
+}
+}
