@@ -12,6 +12,7 @@ const Home = () => {
     link.href = process.env.PUBLIC_URL + "/Filescv/sample.pdf"; // safer way
     link.download = "TamilPrabhu_Resume.pdf"; // file name for download
     link.click();
+     alert("Your resume download has started!");
   };
 
   return (
