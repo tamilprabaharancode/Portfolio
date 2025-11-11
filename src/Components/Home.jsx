@@ -9,8 +9,8 @@ const Home = () => {
 
     const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = process.env.PUBLIC_URL + "/Filescv/sample.pdf"; // safer way
-    link.download = "sample.pdf"; // file name for download
+    link.href = process.env.PUBLIC_URL + "/Filescv/sample.pdf"; 
+    link.download = "sample.pdf"; 
     link.click();
      alert("Your resume download has started!");
   };
