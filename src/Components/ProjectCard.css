@@ -1,0 +1,30 @@
+.project-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #ffffff, #ffffff00); 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: 0.3s ease;
+  border: 2px solid black;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.project-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}

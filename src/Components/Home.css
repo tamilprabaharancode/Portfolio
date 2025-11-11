@@ -1,0 +1,156 @@
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Fullscreen Video Background */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -10;
+}
+
+/* Navbar stays on top */
+nav {
+  position: relative;
+  z-index: 10;
+}
+
+.background-image {
+  width: 250px;
+  height: 250px;
+  clip-path: polygon(
+    50% 0%, 
+    95% 38%, 
+    77% 95%, 
+    23% 95%, 
+    5% 38%
+  );
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+/* Intro Content */
+.intro {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+  margin-top: 50px;    /* adjust as needed */
+  text-align: center;
+  color: white;
+}
+
+/* Pentagon Image Styling */
+.pentagon-image-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image1 {
+  width: 250px;
+  height: 250px;
+  clip-path: polygon(
+    50% 0%, 
+    95% 38%, 
+    77% 95%, 
+    23% 95%, 
+    5% 38%
+  );
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+h1,h3{
+  color: black;
+}
+
+/* Fade + slide on page load */
+.page-enter {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeSlideIn 1s ease-out forwards;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Image animation */
+.image-pop {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: popIn 1.2s ease-out forwards;
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.typewriter {
+  width: 0;
+  margin-left: 100px;
+  color: red;
+  padding: 0 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #fff; 
+  font-size: 26px;
+  animation: typing 3s steps(30) forwards,
+             blinkCursor 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 320px; }  /* change width to match your text length */
+}
+
+@keyframes blinkCursor {
+  50% { border-color: transparent; }
+}
+
+@media (max-width: 850px) {
+  .typewriter{
+    margin-left: -30%;
+  }
+  .page-enter {
+    margin-top: -35%;
+    margin-left: 25%;
+  }
+  .background-image1 {
+  margin-top: 35%;
+  margin-left: -200%;
+  width: 250px;
+  height: 250px;
+  clip-path: polygon(
+    50% 0%, 
+    95% 38%, 
+    77% 95%, 
+    23% 95%, 
+    5% 38%
+  );
+  object-fit: cover;
+  border: 3px solid white;
+}
+}
