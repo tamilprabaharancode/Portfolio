@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import backgroundImage from '../images/logo.jpg';
 import '../Components/Navbar.css'
 import { Link } from 'react-router-dom';
-import Home from './Home';
+
 
 
 
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
         <div className='navigation' >
-         
+        
           <div>
             <img  src={backgroundImage} alt="Background" className="background-image" style={{width:'100px',height:'100px'}}></img>
           <span>M.TAMIL</span><span style={{color:"red",fontFamily:'bold'}}> PRABAHARAN</span>
@@ -31,7 +31,9 @@ const Navbar = () => {
           
           <button className='slide-btn' onClick={() => setislists(!islists)}>{islists ? <h1>x</h1> : <h1>☰</h1>}</button>
 
-          <Home/>
+          
+          
+         
         </div>
     </div>
   )

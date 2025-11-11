@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import Home from './Components/Home.jsx';
 import Aboutme from './Components/Aboutme.jsx';
@@ -11,11 +11,13 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 
 function App() {
+
   return (
     <div>
-      
        <Routes>
+        
         <Route path="/" element={<><Home/></>} />
+        <Route path="/Portfolio" element={<Home />} />
         <Route path="/About" element={<><Aboutme/></>} />
         <Route path="/Services" element={<><Services/></>} />
         <Route path="/skills" element={<><Skills/></>} />

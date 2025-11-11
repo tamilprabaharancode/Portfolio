@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 import backgroundVideo from '../images/background.mp4';
 import backgroundImage from '../images/intro.jpg';
 import './Home.css'
@@ -21,7 +21,7 @@ const Home = () => {
         <source src={backgroundVideo} type="video/mp4" />
         </video>
       </div>
-      <div className='nav'><Navbar></Navbar></div>
+      {/* <div className='nav'><Navbar></Navbar></div> */}
       <div className='intro' style={{marginTop:'300px',zIndex:'10'}}>
         <div className="page-enter" style={{width:'50%'}}>
           <h3>Hello It's me</h3><h1>Tamil Prabaharan</h1><h3>And I'm a </h3><h3 className="typewriter">Fullstack web developer</h3>
