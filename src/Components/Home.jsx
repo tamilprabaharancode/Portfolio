@@ -12,7 +12,7 @@ const handleDownload = () => {
   link.href = process.env.PUBLIC_URL + "/Filescv/TamilPrabhu_Resume.pdf";
   link.download = "TamilPrabhu_Resume.pdf";
   link.click();
-  alert("Your resume download has started!");
+  alert("Your resume download has started successfully!");
 };
 
 
