@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6af1e3cc.css",
-    "main.js": "/Portfolio/static/js/main.b278beba.js",
+    "main.css": "/Portfolio/static/css/main.c9395478.css",
+    "main.js": "/Portfolio/static/js/main.59029d84.js",
     "static/js/453.6264690d.chunk.js": "/Portfolio/static/js/453.6264690d.chunk.js",
     "static/media/background.mp4": "/Portfolio/static/media/background.eff3b68fb9c6107708b0.mp4",
     "static/media/Textile.png": "/Portfolio/static/media/Textile.f76137e29c2c3fe8ce5e.png",
@@ -11,12 +11,12 @@
     "static/media/Number_game.jpeg": "/Portfolio/static/media/Number_game.aca5cc801348630472ee.jpeg",
     "static/media/Weather_App.jpeg": "/Portfolio/static/media/Weather_App.53a3e655cbe166e5db4b.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.6af1e3cc.css.map": "/Portfolio/static/css/main.6af1e3cc.css.map",
-    "main.b278beba.js.map": "/Portfolio/static/js/main.b278beba.js.map",
+    "main.c9395478.css.map": "/Portfolio/static/css/main.c9395478.css.map",
+    "main.59029d84.js.map": "/Portfolio/static/js/main.59029d84.js.map",
     "453.6264690d.chunk.js.map": "/Portfolio/static/js/453.6264690d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6af1e3cc.css",
-    "static/js/main.b278beba.js"
+    "static/css/main.c9395478.css",
+    "static/js/main.59029d84.js"
   ]
 }
