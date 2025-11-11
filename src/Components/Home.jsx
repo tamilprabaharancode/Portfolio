@@ -7,13 +7,14 @@ import './Home.css'
 
 const Home = () => {
 
-    const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = process.env.PUBLIC_URL + "/Filescv/sample.pdf"; 
-    link.download = "sample.pdf"; 
-    link.click();
-     alert("Your resume download has started!");
-  };
+const handleDownload = () => {
+  const link = document.createElement("a");
+  link.href = process.env.PUBLIC_URL + "/Filescv/TamilPrabhu_Resume.pdf";
+  link.download = "TamilPrabhu_Resume.pdf";
+  link.click();
+  alert("Your resume download has started!");
+};
+
 
   return (
     <div className='home ' >
